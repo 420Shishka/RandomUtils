@@ -16,7 +16,7 @@ class StringUtils {
   }
 
   public static capitalize(str: string): string {
-    return str.charAt(0) + str.slice(1).toLowerCase();
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
   }
 
   public static deburr(str: string): string {
